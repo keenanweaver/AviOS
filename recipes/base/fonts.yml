@@ -3,5 +3,7 @@ modules:
     fonts:
       nerd-fonts:
         - JetBrainsMono
+
+  - type: rpm-ostree
     install:
       - rsms-inter-fonts
