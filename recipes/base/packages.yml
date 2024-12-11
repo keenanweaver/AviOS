@@ -1,0 +1,14 @@
+modules:
+  - type: rpm-ostree
+    install:
+      - ffmpeg
+      - distrobox
+      - virt-manager
+      - xwaylandvideobridge
+    remove:
+      - firefox
+      - firefox-langpacks
+
+  - type: bling
+    install:
+       - 1password

@@ -1,0 +1,18 @@
+modules:
+  - type: default-flatpaks
+    notify: true
+    system:
+      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      repo-name: flathub
+      repo-title: "Flathub (system-wide)"
+      install:
+        - com.github.IsmaelMartinez.teams_for_linux
+        - com.github.tchx84.Flatseal
+        - com.microsoft.Edge
+        - org.kde.haruna
+        - org.mozilla.firefox
+        - org.mozilla.Thunderbird
+        - org.onlyoffice.desktopeditors
+        - us.zoom.Zoom
+      remove:
+    user: {} # Also add Flathub user repo, but no user packages
