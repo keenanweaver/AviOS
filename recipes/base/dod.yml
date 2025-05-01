@@ -1,4 +1,4 @@
 modules:
   - type: script
-    scripts: 
+    scripts:
       - dod-certs.sh
