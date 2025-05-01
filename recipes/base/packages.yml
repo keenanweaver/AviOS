@@ -8,4 +8,5 @@ modules:
 
   - type: bling
     install:
+       - negativo17
        - 1password
