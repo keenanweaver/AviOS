@@ -16,7 +16,7 @@ modules:
   - from-file: base/flatpak.yml
   - from-file: base/fonts.yml
   #- from-file: base/displaylink.yml
-  - from-file: base/nix.yml
+  #- from-file: base/nix.yml
   - from-file: base/dod.yml
   - from-file: base/branding.yml
 
