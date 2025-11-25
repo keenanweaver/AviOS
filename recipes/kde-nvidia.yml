@@ -3,7 +3,7 @@
 name: avios
 description: Aurora-DX-Nvidia with customizations for Aviture
 
-base-image: ghcr.io/ublue-os/aurora-dx-nvidia
+base-image: ghcr.io/ublue-os/aurora-dx-hwe-nvidia
 image-version: latest # latest is also supported if you want new updates ASAP
 
 modules:
